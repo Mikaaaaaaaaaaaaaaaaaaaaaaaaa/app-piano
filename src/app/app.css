@@ -1,0 +1,41 @@
+* {
+    margin: auto;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    max-width: 500px;
+}
+
+li {
+    color: yellow;
+    height: 300px;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    box-shadow: 0px 10px 0px black;
+    text-shadow: 0px 0px 50px yellow, 0px 5px 0px black;
+    padding: 0px 50px 0px 50px;
+    font-size: 60px;
+    background-image: linear-gradient(0deg, #ffff003d -40%, transparent 60%);
+    border-radius: 3px;
+}
+
+ul {
+    display: flex;
+    gap: 70px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 640px;
+}
+
+p {
+    margin-bottom: 30px !important;
+    margin-top: 15px !important;
+}
